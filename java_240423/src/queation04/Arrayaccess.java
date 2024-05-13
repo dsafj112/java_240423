@@ -18,5 +18,6 @@ public class Arrayaccess {
 		}
 		
 		System.out.println("가장 큰 수는 "+res+"입니다.");
+		sc.close();
 	}
 }

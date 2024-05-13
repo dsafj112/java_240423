@@ -16,6 +16,7 @@ public class MultibleOfThree {
 			if (num[i]%3==0) {
 				System.out.print(num[i]+" ");
 			}
+			sc.close();
 		}
 	}
 }

@@ -24,5 +24,6 @@ public class ArrayMin {
 			}
 		}
 		System.out.println("가장 작은 수는 "+res+"입니다.");
+		sc.close();
 	}
 }

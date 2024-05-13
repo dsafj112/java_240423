@@ -2,8 +2,6 @@ package question06;
 
 import java.util.Scanner;
 
-import chaper02.IntergerLoteralExamlpe;
-
 public class ArrayMinMax {
 	public static void main(String[] args) {
 		System.out.println("양수 10개를 입력하세요.");
