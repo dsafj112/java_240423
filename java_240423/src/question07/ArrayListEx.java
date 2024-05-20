@@ -14,20 +14,20 @@ public class ArrayListEx {
 			list.add(a);
 		}
 		
-		String big="";
+		String longest="";
 		
 		for (int i = 0; i < list.size(); i++) {
-			String str = list.get(i);
-			System.out.print(str+" ");
+			String name = list.get(i);
+			System.out.print(name+" ");
 			if (i == 0) {
-				big=str;
+				longest=name;
 			}
 			else if (list.get(i-1).length() < list.get(i).length()) {
-				big=str;
+				longest=name;
 			}
 		}
 		System.out.println();
-		System.out.println("가장 긴 이름은 : "+big);
+		System.out.println("가장 긴 이름은 : "+longest);
 		sc.close();
 	}
 }
