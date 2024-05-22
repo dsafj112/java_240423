@@ -7,7 +7,7 @@ public class TimerThread extends Thread {
 		while (true) {
 			System.out.println(n);
 			n++;
-			try {
+			try { 
 				sleep(1000);//1초마다 실행
 //				예외 발생할때 e로 catch 해서 - 이름 다르게 줄 수 있음
 			} catch (InterruptedException e) {
